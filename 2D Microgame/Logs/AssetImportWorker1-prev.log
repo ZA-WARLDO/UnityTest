@@ -1,0 +1,1507 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.13f1 (9e7d58001ecf) revision 10386776'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16126 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/delos/Documents/GitHub/2D-Game-Practice/2D Microgame
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+60539
+Successfully changed project path to: C:/Users/delos/Documents/GitHub/2D-Game-Practice/2D Microgame
+C:/Users/delos/Documents/GitHub/2D-Game-Practice/2D Microgame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 248.99 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/delos/Documents/GitHub/2D-Game-Practice/2D Microgame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Plus Graphics (ID=0x8a52)
+    Vendor:   Intel
+    VRAM:     8063 MB
+    Driver:   31.0.101.1999
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004058 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 162.47 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.787 seconds
+Domain Reload Profiling:
+	ReloadAssembly (788ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (587ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (115ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (378ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (163ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (147ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015151 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\delos\Documents\GitHub\2D-Game-Practice\2D Microgame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\delos\Documents\GitHub\2D-Game-Practice\2D Microgame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 186.19 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.984 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1985ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1689ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (444ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (947ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (186ms)
+				BeforeProcessingInitializeOnLoad (199ms)
+				ProcessInitializeOnLoadAttributes (347ms)
+				ProcessInitializeOnLoadMethodAttributes (196ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.41 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6384 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 105 unused Assets / (1.4 MB). Loaded Objects now: 6784.
+Memory consumption went from 238.7 MB to 237.3 MB.
+Total: 7.814900 ms (FindLiveObjects: 0.450800 ms CreateObjectMapping: 0.267800 ms MarkObjects: 6.375100 ms  DeleteObjects: 0.719500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 198853.861966 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Items/flail_silver.png
+  artifactKey: Guid(00b6c027af3d5f34a866ca719fa2c918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Items/flail_silver.png using Guid(00b6c027af3d5f34a866ca719fa2c918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f525c994197dd3ed2fdd2817cec1925') in 0.180579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Items/flail_diamond.png
+  artifactKey: Guid(1b1439174a3f5634bb34eb8d98472e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Items/flail_diamond.png using Guid(1b1439174a3f5634bb34eb8d98472e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0a5ae50ef84e5c374947d9adfe560a') in 0.034345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Items/hammer_silver.png
+  artifactKey: Guid(90fdea84a2fd9d448981bf68a8cbaf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Items/hammer_silver.png using Guid(90fdea84a2fd9d448981bf68a8cbaf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e2e004015c81bddd23cb73b4c63990') in 0.033355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Items/arrow.png
+  artifactKey: Guid(e25de8948c41ee54eb613b11fc37de38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Items/arrow.png using Guid(e25de8948c41ee54eb613b11fc37de38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a4cd4754697bb43fa2fd95bfea77aca') in 0.033068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Items/axe_diamond.png
+  artifactKey: Guid(1e9a03f5e05c8394998c481a5b360f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Items/axe_diamond.png using Guid(1e9a03f5e05c8394998c481a5b360f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca0916ec7e929d0ca82cc2e2584632e') in 0.033667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Items/hammer_bronze.png
+  artifactKey: Guid(67cf9590c7c232e47bcd9c34e5c3b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Items/hammer_bronze.png using Guid(67cf9590c7c232e47bcd9c34e5c3b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbab49a8a50726cc80f47f031c0f5a63') in 0.034480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Items/axe_iron.png
+  artifactKey: Guid(6b9884f99ccb09142928b8528278eae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Items/axe_iron.png using Guid(6b9884f99ccb09142928b8528278eae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5400380bcfd544af52f4dd901c7628c8') in 0.029566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Items/fishingPole.png
+  artifactKey: Guid(d5d9ad8e67041c849ab9b1c5f1e6e227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Items/fishingPole.png using Guid(d5d9ad8e67041c849ab9b1c5f1e6e227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56eedec9026f8fe9be26feebfd8b919c') in 0.026323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Items/flail_iron.png
+  artifactKey: Guid(e33e3b1a44f7f654789681e54b75b33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Items/flail_iron.png using Guid(e33e3b1a44f7f654789681e54b75b33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7043ed2bb5529869baf4d0ecaec3d2c0') in 0.023231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Items/hammer_diamond.png
+  artifactKey: Guid(46eb7e1897d9eaf47b185e7f9c7246d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Items/hammer_diamond.png using Guid(46eb7e1897d9eaf47b185e7f9c7246d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3481251620ca849aaec141f98b00782f') in 0.031213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Items/axe_gold.png
+  artifactKey: Guid(435a4b324cd0bc14785faa1b04c4dab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Items/axe_gold.png using Guid(435a4b324cd0bc14785faa1b04c4dab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d29f2bd30eb2109d5df4f8160f4e75') in 0.028359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Items/bow.png
+  artifactKey: Guid(337e01b7cdd3a274cb32583353aad2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Items/bow.png using Guid(337e01b7cdd3a274cb32583353aad2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf4aa8784a78c8a37f1eccf8441371bc') in 0.034719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Items/fish.png
+  artifactKey: Guid(32f5b1c58fc840c479f5855a74b2b26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Items/fish.png using Guid(32f5b1c58fc840c479f5855a74b2b26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33d2143405267847cb583d2e273acb4') in 0.028236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Items/fish_cooked.png
+  artifactKey: Guid(5510c450474d4874d88d4d26ea413249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Items/fish_cooked.png using Guid(5510c450474d4874d88d4d26ea413249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196c5ebc5f820c3f0650c50159fd2378') in 0.026865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.018856 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/brick_red.png
+  artifactKey: Guid(86f8b4929a18682469f51d2ba7615810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/brick_red.png using Guid(86f8b4929a18682469f51d2ba7615810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5571e133ce134204eb03fa227068a4b') in 0.033327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/cotton_blue.png
+  artifactKey: Guid(d5c40d3dd0409344bb35055f3a174170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/cotton_blue.png using Guid(d5c40d3dd0409344bb35055f3a174170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6377882c277b543b624c353461b61bd9') in 0.033647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/cactus_side.png
+  artifactKey: Guid(4525d8bafaa621a48839057e5470b61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/cactus_side.png using Guid(4525d8bafaa621a48839057e5470b61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9738735cc30379f8a284f17e23f265a0') in 0.036263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/cotton_tan.png
+  artifactKey: Guid(18f4c1ddf62fea54d9e2ebabef1b7ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/cotton_tan.png using Guid(18f4c1ddf62fea54d9e2ebabef1b7ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3cf73d9882dad75845ef55d8bb8d463') in 0.032132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/dirt_snow.png
+  artifactKey: Guid(26d622c60eb18f94988a81ee30545985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/dirt_snow.png using Guid(26d622c60eb18f94988a81ee30545985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8ae3674782f19b427124e74da74a52') in 0.032230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/cotton_red.png
+  artifactKey: Guid(61e61f5bc0655c84a9b69dd1942e8cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/cotton_red.png using Guid(61e61f5bc0655c84a9b69dd1942e8cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000854f4847b5750a19cf907434be6c8') in 0.031758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/fence_stone.png
+  artifactKey: Guid(d937791ab92b8604089b1be4c25e8245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/fence_stone.png using Guid(d937791ab92b8604089b1be4c25e8245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165109f2b7a00a82837343466f6c356e') in 0.032860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/grass_brown.png
+  artifactKey: Guid(52ef1ba1bc10c6a4a846fdd90eb063bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/grass_brown.png using Guid(52ef1ba1bc10c6a4a846fdd90eb063bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188974a2ef51b902b97928662eab1c7c') in 0.034246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/glass.png
+  artifactKey: Guid(62cbf87270e973f44a0d711178dfd305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/glass.png using Guid(62cbf87270e973f44a0d711178dfd305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a06edae983a818c4baee385d31f76f') in 0.029184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/dirt_sand.png
+  artifactKey: Guid(97288e87212ce274b8acf740da7b795f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/dirt_sand.png using Guid(97288e87212ce274b8acf740da7b795f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd37c5898c220bcaa4c313890405068ac') in 0.030609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/fence_wood.png
+  artifactKey: Guid(49eb138f2f02ac842b628d5a217e098b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/fence_wood.png using Guid(49eb138f2f02ac842b628d5a217e098b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a9138706483183ef5bd71685f266fe') in 0.030672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.211099 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/grass_top.png
+  artifactKey: Guid(be162f2cd88a02d47b225505d0ea88c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/grass_top.png using Guid(be162f2cd88a02d47b225505d0ea88c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a05e70d858373725abbe64e73594c6') in 0.035269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/greystone_ruby.png
+  artifactKey: Guid(24e4e5c20b8525044a0289da3212e30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/greystone_ruby.png using Guid(24e4e5c20b8525044a0289da3212e30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b190a14af93bb25ac67b7ad35c705d64') in 0.034000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/gravel_dirt.png
+  artifactKey: Guid(bf3f877cce5b7ce41adc69163f525c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/gravel_dirt.png using Guid(bf3f877cce5b7ce41adc69163f525c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c91f09594591352f6d37e9381c186a7') in 0.033912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/greysand.png
+  artifactKey: Guid(9fce131363f0b514ea4a6f4933ddb45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/greysand.png using Guid(9fce131363f0b514ea4a6f4933ddb45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791b46aadf7ee1c90a87464a7a3e2a69') in 0.038212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.261420 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/greystone_sand.png
+  artifactKey: Guid(3f38144c1f332ed4ea527fd6604fcef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/greystone_sand.png using Guid(3f38144c1f332ed4ea527fd6604fcef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d79437622d92a787329f1f0e86cbb6') in 0.040481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/snow.png
+  artifactKey: Guid(d18e8616ab24908449372c013309917d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/snow.png using Guid(d18e8616ab24908449372c013309917d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df186791a17afb48842e475bf2a51a06') in 0.032031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/rock_moss.png
+  artifactKey: Guid(8180fc1e47453344cba212738cb7af61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/rock_moss.png using Guid(8180fc1e47453344cba212738cb7af61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e126ebefcaa4dd915e8000e2ebc410dd') in 0.036869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/leaves_transparent.png
+  artifactKey: Guid(25de442ada9970445a11e2853885a973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/leaves_transparent.png using Guid(25de442ada9970445a11e2853885a973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e9bf846c675479ba2f277dbd27d649') in 0.035666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/redsand.png
+  artifactKey: Guid(1fd2d03492cbfce44a94f0c4b19ac302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/redsand.png using Guid(1fd2d03492cbfce44a94f0c4b19ac302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5932245e0d9a61aedfc0bb75e42b23') in 0.036638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/mushroom_brown.png
+  artifactKey: Guid(dee6d6ce6c904c449a1aaaa134638b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/mushroom_brown.png using Guid(dee6d6ce6c904c449a1aaaa134638b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8aa1edcf70130a1c49c662558ef0c30') in 0.039034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/mushroom_red.png
+  artifactKey: Guid(bcefc198abb22cb42ba74a4460a80350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/mushroom_red.png using Guid(bcefc198abb22cb42ba74a4460a80350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76f4c13116a5950c180c145f34aff67') in 0.031850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/redstone.png
+  artifactKey: Guid(24d52f6d00f507945a43cda54147a4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/redstone.png using Guid(24d52f6d00f507945a43cda54147a4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f2815762bf3ea3b075a2b83e7d1333') in 0.037914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/lava.png
+  artifactKey: Guid(2642fde457fcf794fa403863dd3684fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/lava.png using Guid(2642fde457fcf794fa403863dd3684fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db018f1f55d208abd3d5e844b942509') in 0.036146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/redstone_emerald.png
+  artifactKey: Guid(95459835adb2f0f43a131fd639a4c4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/redstone_emerald.png using Guid(95459835adb2f0f43a131fd639a4c4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79cea579c6a00e2ca7be71e587b73dfb') in 0.031482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.107376 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/stone_browniron.png
+  artifactKey: Guid(176722d26c4fc9948957e7fbd9c62ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/stone_browniron.png using Guid(176722d26c4fc9948957e7fbd9c62ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512711a7dccd3b2e5588fb535b51a0d4') in 0.046154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/stone_coal.png
+  artifactKey: Guid(b918039ea2e516545abb76abde2302e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/stone_coal.png using Guid(b918039ea2e516545abb76abde2302e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d2bf6bec727f460af0664c1a98b571') in 0.038101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/stone_iron.png
+  artifactKey: Guid(76d4ea220ef535a419c2e891e23b1014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/stone_iron.png using Guid(76d4ea220ef535a419c2e891e23b1014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904535930efcc289bfd23f9655b4dcaf') in 0.039032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/stone_iron_alt.png
+  artifactKey: Guid(d8f609b104f8fb74fb67b04994510c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/stone_iron_alt.png using Guid(d8f609b104f8fb74fb67b04994510c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3134b9fc9b3d0a1e495cd2217b5e60') in 0.037137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/stone_coal_alt.png
+  artifactKey: Guid(28993382aa6b335478a2602bf89fe95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/stone_coal_alt.png using Guid(28993382aa6b335478a2602bf89fe95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d9c96bd780f86dbcdcd0d014280705') in 0.037869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/stone_grass.png
+  artifactKey: Guid(fc0ba9292b8893b40a122ca5ef3cb337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/stone_grass.png using Guid(fc0ba9292b8893b40a122ca5ef3cb337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4498db2485b71f45cc20fb8e5182d3') in 0.030393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/stone_diamond_alt.png
+  artifactKey: Guid(9f83be3a9539311409b8b8d1b913b735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/stone_diamond_alt.png using Guid(9f83be3a9539311409b8b8d1b913b735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3317cac2da0daa60cd84e378935473d5') in 0.033928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.397708 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/stone_silver_alt.png
+  artifactKey: Guid(a206bdb82ab09ab448452810fb0a1142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/stone_silver_alt.png using Guid(a206bdb82ab09ab448452810fb0a1142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e9949ca1087609e18e5109412b9e67') in 0.039382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/wheat_stage4.png
+  artifactKey: Guid(2217b18bdd8dcd94d886ce921b479ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/wheat_stage4.png using Guid(2217b18bdd8dcd94d886ce921b479ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fdf47dc20821aafc043823b72d6a023') in 0.035965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/wood.png
+  artifactKey: Guid(17b3f467e9d20d1468e70b1c0cf4ff78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/wood.png using Guid(17b3f467e9d20d1468e70b1c0cf4ff78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b61da44e9e24d44b798073a2ccbaf4') in 0.036059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/wheat_stage2.png
+  artifactKey: Guid(990adddece3e2bf4fa3c7b617710ed5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/wheat_stage2.png using Guid(990adddece3e2bf4fa3c7b617710ed5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc572b140a3a77ebd15fcc75e0dfbc76') in 0.035536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/track_corner.png
+  artifactKey: Guid(1b428063d81ef7e489f55dea3d0ead6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/track_corner.png using Guid(1b428063d81ef7e489f55dea3d0ead6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d71c517e3075bc52d0240fac78ff8c6') in 0.034487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/track_corner_alt.png
+  artifactKey: Guid(af287ea804b3d11498338c4a2e39bc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/track_corner_alt.png using Guid(af287ea804b3d11498338c4a2e39bc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc36547af578876207f18ff5e066cb1') in 0.033532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/trunk_bottom.png
+  artifactKey: Guid(575e787cf6332e74b93b5d268fce5469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/trunk_bottom.png using Guid(575e787cf6332e74b93b5d268fce5469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f19dbe5b4333e41ebc356012911eae') in 0.033927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/wood_red.png
+  artifactKey: Guid(ee61dd2e8c786d443a54f558d3cad6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/wood_red.png using Guid(ee61dd2e8c786d443a54f558d3cad6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84710e131abf9b3216f54c6d4225ce39') in 0.027718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/stone_snow.png
+  artifactKey: Guid(6c1292b984b74d241a86cbf1121580d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/stone_snow.png using Guid(6c1292b984b74d241a86cbf1121580d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac931ac966fa6ded1ec53563114e4a97') in 0.035748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Tiles/water.png
+  artifactKey: Guid(68eba64f4bbaf684ea229815474f7e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Tiles/water.png using Guid(68eba64f4bbaf684ea229815474f7e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea55eeae35d8d0aca38eb807510ae1e4') in 0.030601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.244049 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Characters/Alien/alien_body.png
+  artifactKey: Guid(fff230b8ceee0cc4fbb6044c3eb3c787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Characters/Alien/alien_body.png using Guid(fff230b8ceee0cc4fbb6044c3eb3c787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca49cd46282c4a41cbe274caa58428d') in 0.033578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Character/kenney_voxel-pack/PNG/Characters/Alien/alien_leg.png
+  artifactKey: Guid(db7aed1e7888b3c48b6297ed7ff40027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_voxel-pack/PNG/Characters/Alien/alien_leg.png using Guid(db7aed1e7888b3c48b6297ed7ff40027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346ca58492066a1ec95cbd9bf81ebeac') in 0.030866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 433.507185 seconds.
+  path: Assets/Character/kenney_pixel-platformer/SampleA.png
+  artifactKey: Guid(4c39affea8e8e5f4180d1f5dc082d7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/SampleA.png using Guid(4c39affea8e8e5f4180d1f5dc082d7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc7910d2da2be220a7016b3f77c3fd9') in 0.062332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Character/kenney_pixel-platformer/SampleB.png
+  artifactKey: Guid(8ef8c99d91ebe4c4bb8f21312728773e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/SampleB.png using Guid(8ef8c99d91ebe4c4bb8f21312728773e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53ce44ca005cc74352888d314244d1f') in 0.048651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.312342 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0001.png
+  artifactKey: Guid(401077b586ac5204dabe0ce7aaa593bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0001.png using Guid(401077b586ac5204dabe0ce7aaa593bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af05e50a6b12088a7f05a599fb4ee77') in 0.035233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0008.png
+  artifactKey: Guid(14f7b1c3ca903be459fc782cd844cb4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0008.png using Guid(14f7b1c3ca903be459fc782cd844cb4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a83e66a2c86553ca28d957718ffd34b') in 0.031485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0006.png
+  artifactKey: Guid(5cc593f7dff3c44478c24e38bee6047e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0006.png using Guid(5cc593f7dff3c44478c24e38bee6047e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b01c3357838ccdd7d4b522e1bf9ff99') in 0.027386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0012.png
+  artifactKey: Guid(c85308d744e51d04a96cb3b035c7e4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0012.png using Guid(c85308d744e51d04a96cb3b035c7e4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0d3ca7bcbebca26d657a0c1fa59a2f') in 0.035992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0013.png
+  artifactKey: Guid(56b866821b7a04e49a45782c2cd649c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0013.png using Guid(56b866821b7a04e49a45782c2cd649c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827abbad44679cfd33b2e7ad49a29f92') in 0.027529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0004.png
+  artifactKey: Guid(f85782afc46e40c4280bc22e859d6e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0004.png using Guid(f85782afc46e40c4280bc22e859d6e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f4c904235acb8afd3f4a77f859a72f') in 0.025046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0003.png
+  artifactKey: Guid(3113bd280dce26b4abc0150b3083d0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0003.png using Guid(3113bd280dce26b4abc0150b3083d0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ec9db3f1182ca50b02bedb076f1140') in 0.024727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0010.png
+  artifactKey: Guid(f189eb095dee94248bdc7e5984afdaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0010.png using Guid(f189eb095dee94248bdc7e5984afdaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8a456cc5bc7f61ed9236d74e71edd9') in 0.023346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0016.png
+  artifactKey: Guid(511b2231db0b8fd469438e0ff75106d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0016.png using Guid(511b2231db0b8fd469438e0ff75106d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4edadb2f3d5c0b5e3f029c7c9636e39') in 0.032366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0009.png
+  artifactKey: Guid(59c03110088237e49a5a1418e26f4233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0009.png using Guid(59c03110088237e49a5a1418e26f4233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a9333a3e12bfbcde8e68d5511828c0') in 0.033640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.244645 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0021.png
+  artifactKey: Guid(ddf98682dc1e9264a8af37445188a547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0021.png using Guid(ddf98682dc1e9264a8af37445188a547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7296d1a512048d80bea6813b462e410') in 0.031967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0024.png
+  artifactKey: Guid(6698c0e5591e1854480ac9dbef48bb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0024.png using Guid(6698c0e5591e1854480ac9dbef48bb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b1aa163bd7cc379965192b9821747a') in 0.030231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0025.png
+  artifactKey: Guid(10e4c8297021048459a720a9feea4853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0025.png using Guid(10e4c8297021048459a720a9feea4853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0e2f827133dd65159507501c700474') in 0.032048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0026.png
+  artifactKey: Guid(c896106ca34d261489b8541c8155505f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0026.png using Guid(c896106ca34d261489b8541c8155505f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923f6a1ddca5544d95df139c3690ce91') in 0.034712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.487788 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0028.png
+  artifactKey: Guid(a21e6b5992752d9428d9a5f3e6ce4e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0028.png using Guid(a21e6b5992752d9428d9a5f3e6ce4e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77dfb5b0dabbe9a392960476ba93c8f') in 0.035649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0036.png
+  artifactKey: Guid(a73a2d8298da9d0468885ec372db1bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0036.png using Guid(a73a2d8298da9d0468885ec372db1bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad60127673e33504a3435e9a097a049') in 0.033161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0029.png
+  artifactKey: Guid(4f066d8f5c8f1e446856e320d4be02f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0029.png using Guid(4f066d8f5c8f1e446856e320d4be02f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c081bd06a9f05bd48d97ab6dad8baf') in 0.035839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0038.png
+  artifactKey: Guid(544a439d546678c4885249e0b1e8f4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0038.png using Guid(544a439d546678c4885249e0b1e8f4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631ce75d079848cf5021b819404a62f7') in 0.031238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0039.png
+  artifactKey: Guid(f01770fefc616ed4aa6f3647a9ecbc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0039.png using Guid(f01770fefc616ed4aa6f3647a9ecbc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0afeca8e8fcd044455532a7eabcf96d') in 0.031515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0032.png
+  artifactKey: Guid(11978ae1e26eaba4ea73fff0aa5f70c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0032.png using Guid(11978ae1e26eaba4ea73fff0aa5f70c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604843fad1c9aaac59f858662325c0f0') in 0.033005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0037.png
+  artifactKey: Guid(99a6af57711d9ce4d8fddbfac6c0ddbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0037.png using Guid(99a6af57711d9ce4d8fddbfac6c0ddbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2bdb88ff6072c6bb214be6ad412415') in 0.039620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.317500 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0042.png
+  artifactKey: Guid(2faacb35041e3a14d97f312ff4c507c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0042.png using Guid(2faacb35041e3a14d97f312ff4c507c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8d1ad598eb3d95d3a1f1a8d15cc4c0') in 0.035683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0052.png
+  artifactKey: Guid(65f051adec33cd9459d7b8395695ce03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0052.png using Guid(65f051adec33cd9459d7b8395695ce03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536b1047e562ef5827fded92a9a3e0a0') in 0.046550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0057.png
+  artifactKey: Guid(57af60a66beabde43a6a6ecd684276e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0057.png using Guid(57af60a66beabde43a6a6ecd684276e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb425a3b719d682a9193bb8303c9d8f9') in 0.037806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0046.png
+  artifactKey: Guid(93d43bb1e95ae7f449d8949b7ff7d5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0046.png using Guid(93d43bb1e95ae7f449d8949b7ff7d5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be456c152b47a8cbe0bf0d04ce4a098') in 0.031256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0056.png
+  artifactKey: Guid(57b5964f6679d464ab62e73429ebc5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0056.png using Guid(57b5964f6679d464ab62e73429ebc5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3750d77e1708fd8963795ea9aa2ac2cb') in 0.032422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0047.png
+  artifactKey: Guid(88a1d656fbc43d14cb715d53433869b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0047.png using Guid(88a1d656fbc43d14cb715d53433869b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dcb035a15ea9d214464135fab5b752a') in 0.030703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0055.png
+  artifactKey: Guid(2a31ccabd0ab0024681e763496e22ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0055.png using Guid(2a31ccabd0ab0024681e763496e22ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25d9f96fff76b233e85b99224e19611') in 0.035600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0044.png
+  artifactKey: Guid(dd6addb7858326644bba40a3ba843d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0044.png using Guid(dd6addb7858326644bba40a3ba843d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d91e28795c2fa91a5ab3f7ef6a9823') in 0.029309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0045.png
+  artifactKey: Guid(3288ca961a282c04ca6592b2216b17fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0045.png using Guid(3288ca961a282c04ca6592b2216b17fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0dcc49450dfd450996ad3d1a25b5371') in 0.032287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0049.png
+  artifactKey: Guid(7b95ce6089664894ba822e67593fa72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0049.png using Guid(7b95ce6089664894ba822e67593fa72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02278cbd5bb35d7b85541c5e1c486a8') in 0.029867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.093277 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0063.png
+  artifactKey: Guid(e149deaac327af045926faff3a704a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0063.png using Guid(e149deaac327af045926faff3a704a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c45d25a64c7b56dfbb79651f9feb25f4') in 0.037027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0067.png
+  artifactKey: Guid(f0e8716236bf42c44aa5df5000e8d1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0067.png using Guid(f0e8716236bf42c44aa5df5000e8d1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8eefb95f59ad7e4b3761861bb1b33a8') in 0.033592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0071.png
+  artifactKey: Guid(e1cf9f5611a1e0c41ac81cbfc33892b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0071.png using Guid(e1cf9f5611a1e0c41ac81cbfc33892b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183730e0d76ea80fb98517f845fcf571') in 0.032903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0073.png
+  artifactKey: Guid(f25ffc9558152464c92db049cb87604d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0073.png using Guid(f25ffc9558152464c92db049cb87604d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ea2d174fc30b2d0e6fee1d56cac810') in 0.031943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0074.png
+  artifactKey: Guid(4980a1f5e70373541b701616d58a88aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0074.png using Guid(4980a1f5e70373541b701616d58a88aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d19e73dc2e3c5cb7f4a2ff2627c372e') in 0.027533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0069.png
+  artifactKey: Guid(ac8ba0121c2cc9f4daaddcdb0c8298d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0069.png using Guid(ac8ba0121c2cc9f4daaddcdb0c8298d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf3454f325174bc50683ac879d453da') in 0.030789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0065.png
+  artifactKey: Guid(63adcb0dfe6d1c6468e103edc5200546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0065.png using Guid(63adcb0dfe6d1c6468e103edc5200546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232d324ab40f5a170e869a256940c863') in 0.132939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0080.png
+  artifactKey: Guid(6e4bd62f580d70747956aff810d9a5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0080.png using Guid(6e4bd62f580d70747956aff810d9a5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9fca098316a6867e2e63a5981c539f') in 0.032740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0081.png
+  artifactKey: Guid(c4dcb03a1fabe0b4791ab18ad6869411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0081.png using Guid(c4dcb03a1fabe0b4791ab18ad6869411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cac6b9d8a30048098bb2233a608d82b') in 0.031838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0077.png
+  artifactKey: Guid(99d717d6aafad89458d0b3ef6ceed918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0077.png using Guid(99d717d6aafad89458d0b3ef6ceed918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483762f4ef3d0910fd0e19a6202d0ba9') in 0.028343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0088.png
+  artifactKey: Guid(3fc7f54d1e49dda458c0a7ec47623928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0088.png using Guid(3fc7f54d1e49dda458c0a7ec47623928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5733fc2a88311d5c6c264c252be76fd6') in 0.024131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0091.png
+  artifactKey: Guid(6c467ece3bcbcd54ca10cce2d9411130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0091.png using Guid(6c467ece3bcbcd54ca10cce2d9411130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169f5758c6d30c80e08c15540de5c9a4') in 0.034182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0087.png
+  artifactKey: Guid(52d2729508b61c74a93d42e551c09146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0087.png using Guid(52d2729508b61c74a93d42e551c09146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f67cd37a677d3c24ae17ff2e015080f') in 0.036531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0094.png
+  artifactKey: Guid(e89734eb32a207f48bbdaed31e9b81c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0094.png using Guid(e89734eb32a207f48bbdaed31e9b81c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0fc454c97057a12093339a8f37d0e1') in 0.032856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0083.png
+  artifactKey: Guid(b7421b08e4ecd9a49b0546191d6e9149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0083.png using Guid(b7421b08e4ecd9a49b0546191d6e9149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104b7c8347b3f94bb3917ce7c74e8d24') in 0.032762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0085.png
+  artifactKey: Guid(ad5120885f69306489d5f10489c62256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0085.png using Guid(ad5120885f69306489d5f10489c62256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d54fe62f1d5b48082ade5e78c9355e') in 0.031768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0092.png
+  artifactKey: Guid(631483fa046da064da4a8ac7ac1269f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0092.png using Guid(631483fa046da064da4a8ac7ac1269f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec345cee2cb160b2a13b4c5792814285') in 0.035485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.059498 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0097.png
+  artifactKey: Guid(3db685afb6e1aa94b8162e2ea0bb2b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0097.png using Guid(3db685afb6e1aa94b8162e2ea0bb2b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ebbcac2a557511631d865bc4a26c744') in 0.048112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0104.png
+  artifactKey: Guid(3a5a258430127514aa5e88a024df44a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0104.png using Guid(3a5a258430127514aa5e88a024df44a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df84a29d1418df9df68417dd764401bd') in 0.034357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0108.png
+  artifactKey: Guid(25cce269581adcb4ba93ee99c3c7335c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0108.png using Guid(25cce269581adcb4ba93ee99c3c7335c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99da72f3c35e6802dae867dfc9731231') in 0.025430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0106.png
+  artifactKey: Guid(a4d7a63958d0c1b4783c1fe113ab65d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0106.png using Guid(a4d7a63958d0c1b4783c1fe113ab65d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42790bce71895a0faf37a42b56ec0460') in 0.030054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0111.png
+  artifactKey: Guid(bd932f2268ae9e24c92a7c51723b3588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0111.png using Guid(bd932f2268ae9e24c92a7c51723b3588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9ed97098d34845662a35159d3fb728') in 0.029664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0107.png
+  artifactKey: Guid(b8a77677113f52447aff0ab0d2b4931d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0107.png using Guid(b8a77677113f52447aff0ab0d2b4931d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e8869c6ab2efbf57fbc007017b0642') in 0.026710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0113.png
+  artifactKey: Guid(4447c373950612c4991ecd7857777b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0113.png using Guid(4447c373950612c4991ecd7857777b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55cacffdfebc21da3bea3dc4148c3a87') in 0.027638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0100.png
+  artifactKey: Guid(17a2fc834da3f9541bc9df4909d065fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0100.png using Guid(17a2fc834da3f9541bc9df4909d065fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02cc9693ad2c976ce17ce13ce1ef8e64') in 0.027863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0114.png
+  artifactKey: Guid(7768b34a31f0dc44e831b29826963fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0114.png using Guid(7768b34a31f0dc44e831b29826963fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adab37eba95948568b078c48844a70a1') in 0.028367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0110.png
+  artifactKey: Guid(fa15a729507f8c34c84af1ff50f9aa59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0110.png using Guid(fa15a729507f8c34c84af1ff50f9aa59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188f6e67e8f1b6871ca6c6884fe8602a') in 0.029135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.641245 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0117.png
+  artifactKey: Guid(4fb781e429110fc4fbc97cfc77e9cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0117.png using Guid(4fb781e429110fc4fbc97cfc77e9cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d80dbdd17602f3a3e03fc99497af3ae') in 0.037547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0122.png
+  artifactKey: Guid(9965a34dfd02b4e4ba0ee56225381ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0122.png using Guid(9965a34dfd02b4e4ba0ee56225381ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5661c9f67b9630787aafc06ac68b85bc') in 0.029096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0123.png
+  artifactKey: Guid(f5fc1b2f5ba9ffc49a1cc35bbf0ab672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0123.png using Guid(f5fc1b2f5ba9ffc49a1cc35bbf0ab672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f7cb17e6dd53029f4c457fefa9b422') in 0.029898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0125.png
+  artifactKey: Guid(6ddeb1d00d1f26844940507d1026203f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0125.png using Guid(6ddeb1d00d1f26844940507d1026203f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6641275ac1cc72ccf01b80bfe3af7b') in 0.033798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0126.png
+  artifactKey: Guid(9084938ecf2021746b8d23cc3f9b5b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0126.png using Guid(9084938ecf2021746b8d23cc3f9b5b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba37361b820bf7ad1ead1b9edddb446') in 0.025108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0118.png
+  artifactKey: Guid(4524a3ba09306a2439f1b00b581c1920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0118.png using Guid(4524a3ba09306a2439f1b00b581c1920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ebdefb94ceb63449699396e17ecda64') in 0.024480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0132.png
+  artifactKey: Guid(d2c77f976924faa4e815411c8cb55396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0132.png using Guid(d2c77f976924faa4e815411c8cb55396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7882fb2ed4a369f0028fdb581bd885') in 0.039906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0130.png
+  artifactKey: Guid(eca9f92ea07acb54e98ca5eeed207c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0130.png using Guid(eca9f92ea07acb54e98ca5eeed207c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70cc42bfb002b7d3f3816a38ce8e1473') in 0.025045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0133.png
+  artifactKey: Guid(9d430c212b5cca54baaec3ad1e348c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0133.png using Guid(9d430c212b5cca54baaec3ad1e348c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ced6e3f4944b4567eaf9c92cc3d2aae') in 0.023220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0119.png
+  artifactKey: Guid(89e47815144c6e049ad3929ae604e2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0119.png using Guid(89e47815144c6e049ad3929ae604e2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57fb36b6ee4b4162d29525c5df3119b6') in 0.034619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0131.png
+  artifactKey: Guid(7744383d9e24c774488ce24e281795c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0131.png using Guid(7744383d9e24c774488ce24e281795c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5998638ed97f98f705f7e3b84dbd521c') in 0.029501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.356673 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0138.png
+  artifactKey: Guid(98295e5d650c2cd42835fcceb8d50343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0138.png using Guid(98295e5d650c2cd42835fcceb8d50343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7bd908cde6807dd7ead27cb5a3ddf9b') in 0.032029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0142.png
+  artifactKey: Guid(3059316ed607d1645a8e433b1c425ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0142.png using Guid(3059316ed607d1645a8e433b1c425ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fabe4def7cb9e33d039b1f450ec0b278') in 0.034434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0146.png
+  artifactKey: Guid(87d7074eb83bde74083a4d4b40125096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0146.png using Guid(87d7074eb83bde74083a4d4b40125096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a610aab00dfed507894c0241254d0dd') in 0.025183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0151.png
+  artifactKey: Guid(abbb102c7b3ff3549bc2dc4c45a2802b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0151.png using Guid(abbb102c7b3ff3549bc2dc4c45a2802b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0cb753c337441ca7dc1d518e154c207') in 0.033801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0154.png
+  artifactKey: Guid(70f3f8780ba5afb4ea16f27afcc1c5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0154.png using Guid(70f3f8780ba5afb4ea16f27afcc1c5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1803800def86d3745d9e74f52a8d44ec') in 0.027687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0150.png
+  artifactKey: Guid(815b780bbd4e39042ad3523377241835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0150.png using Guid(815b780bbd4e39042ad3523377241835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ab9aa8077ea9f3d97490fdca1e2c49') in 0.024643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0149.png
+  artifactKey: Guid(233d4a0bdb229414d970b901d6127f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0149.png using Guid(233d4a0bdb229414d970b901d6127f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72fea41dc75244f939cd879eb612b514') in 0.025607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0162.png
+  artifactKey: Guid(faba8bdf436f879489f541f720039e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0162.png using Guid(faba8bdf436f879489f541f720039e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d25aabee390be97129731e6a179bae') in 0.025421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0169.png
+  artifactKey: Guid(a9352914bec5cc448a83fd2fc274c331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0169.png using Guid(a9352914bec5cc448a83fd2fc274c331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d6523635b1ef3b80c955f9fe6c1141') in 0.027921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0168.png
+  artifactKey: Guid(882a1c704d709bc46a7f8405209e9657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0168.png using Guid(882a1c704d709bc46a7f8405209e9657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de456b323c54e695111c09be0642fac') in 0.026021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0175.png
+  artifactKey: Guid(49561978c11982845a27c6892c1e7353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0175.png using Guid(49561978c11982845a27c6892c1e7353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9aa45170415d7324a75cbc9173c07fa') in 0.026931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0176.png
+  artifactKey: Guid(fedf837ac26478444bedacf6f1861313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0176.png using Guid(fedf837ac26478444bedacf6f1861313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5351d5421f9901930f05a284e00ba53') in 0.032774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0174.png
+  artifactKey: Guid(172d777d919bb7e4a96a2335f6fa7292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0174.png using Guid(172d777d919bb7e4a96a2335f6fa7292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57910a8bfe3e585239fee6f5ab555edb') in 0.028220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0177.png
+  artifactKey: Guid(9d8723aa5b4647e4aae1abd10dd422d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0177.png using Guid(9d8723aa5b4647e4aae1abd10dd422d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ac23005c5be38a985182bcffd2ebff') in 0.025984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0164.png
+  artifactKey: Guid(0d30fc20aa80f674f89e001b7e44e5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0164.png using Guid(0d30fc20aa80f674f89e001b7e44e5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855a89e23add08d7409f97897131c103') in 0.030235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0144.png
+  artifactKey: Guid(d830771dfcf80f34a9597496153fd990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0144.png using Guid(d830771dfcf80f34a9597496153fd990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb17c9118a533d9c1b0143537c500864') in 0.027123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0161.png
+  artifactKey: Guid(5f2d6f034b8a6774d80b4066b18c33f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0161.png using Guid(5f2d6f034b8a6774d80b4066b18c33f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910a4fd337ecd8047ef3566e68dac337') in 0.023893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0145.png
+  artifactKey: Guid(30bee30332164b94095491911edab077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0145.png using Guid(30bee30332164b94095491911edab077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0129d75268829e8eab427c281ce8592b') in 0.023864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0172.png
+  artifactKey: Guid(33609c1bd6351f04f93d5354e5f8ed91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0172.png using Guid(33609c1bd6351f04f93d5354e5f8ed91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100bb7f64173c679ae03858b8fcbaaca') in 0.030751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0178.png
+  artifactKey: Guid(29d9c948c4175634bae01586a2f7ec45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0178.png using Guid(29d9c948c4175634bae01586a2f7ec45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6d05379a8042f97e50e9d1759d931e') in 0.028562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0158.png
+  artifactKey: Guid(eca9eae6979ed9a448c561918db06644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0158.png using Guid(eca9eae6979ed9a448c561918db06644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc78f1177c4b7780bda11c7759dd66b') in 0.025773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/tile_0140.png
+  artifactKey: Guid(18ef30d5d894abf4fa5d6f0e5e623647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/tile_0140.png using Guid(18ef30d5d894abf4fa5d6f0e5e623647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b87db46d94ea3d43fe22ae3849fe6c') in 0.034398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.344795 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/Characters/tile_0001.png
+  artifactKey: Guid(d1169aecc415d57478c1e1e7930dab89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/Characters/tile_0001.png using Guid(d1169aecc415d57478c1e1e7930dab89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fee5f7b9907a6f3ec92447f347321dc') in 0.031957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/Characters/tile_0013.png
+  artifactKey: Guid(b2244c910bbbefa4d81dcdb2a8156a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/Characters/tile_0013.png using Guid(b2244c910bbbefa4d81dcdb2a8156a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175cbec7a3da7bf19760e720c3c16796') in 0.030897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/Characters/tile_0022.png
+  artifactKey: Guid(e1124fa0d6414b94e8f99ce6438fc35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/Characters/tile_0022.png using Guid(e1124fa0d6414b94e8f99ce6438fc35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e3266c21c8d2098ff59889ad7718efa') in 0.029329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/Characters/tile_0003.png
+  artifactKey: Guid(b0a989e1c7541f34c81638b3e35a229b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/Characters/tile_0003.png using Guid(b0a989e1c7541f34c81638b3e35a229b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0014112002ded6aa0b173f581d6421f7') in 0.084881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/Characters/tile_0019.png
+  artifactKey: Guid(d78b0d0fb3ccd2b49a1381b91934698f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/Characters/tile_0019.png using Guid(d78b0d0fb3ccd2b49a1381b91934698f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbbe9620f1ca9b17352b76f694938df') in 0.027118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/Characters/tile_0010.png
+  artifactKey: Guid(898bf3bb719c6eb4eb3f0b2b7e4ce5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/Characters/tile_0010.png using Guid(898bf3bb719c6eb4eb3f0b2b7e4ce5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76871b8eddf4f5faadbfa0f5170af67') in 0.024096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/Characters/tile_0025.png
+  artifactKey: Guid(250c1ce1613bf74418e2c1ed2798c432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/Characters/tile_0025.png using Guid(250c1ce1613bf74418e2c1ed2798c432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6ee64fa75d7fa8cc0566c886fdd915') in 0.026348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/Characters/tile_0005.png
+  artifactKey: Guid(1dbd118eebf4dae49b5ef10921e060be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/Characters/tile_0005.png using Guid(1dbd118eebf4dae49b5ef10921e060be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517494ffdb9150448406dc0234ad042a') in 0.031161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/Characters/tile_0018.png
+  artifactKey: Guid(fab70c17b7d8104409664577578af2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/Characters/tile_0018.png using Guid(fab70c17b7d8104409664577578af2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3d8b3aee73970ffd7d84e3d836ca5e') in 0.030198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/Characters/tile_0014.png
+  artifactKey: Guid(042f4a6ce2df50741a840c4f54253778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/Characters/tile_0014.png using Guid(042f4a6ce2df50741a840c4f54253778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4a6ab34fe414161fa24af8d69af2cc') in 0.023991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/Characters/tile_0020.png
+  artifactKey: Guid(63465625cbeacda429b38793e5d3055e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/Characters/tile_0020.png using Guid(63465625cbeacda429b38793e5d3055e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22d5e37e99484469ec240a114dbb42e') in 0.024062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/Characters/tile_0026.png
+  artifactKey: Guid(f75be1103576c1747b6813e85c71c4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/Characters/tile_0026.png using Guid(f75be1103576c1747b6813e85c71c4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea0229ed28ef8d71aee8a944b1f6fa7') in 0.025023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Character/kenney_pixel-platformer/Tiles/Characters/tile_0017.png
+  artifactKey: Guid(73adec08d276339489c9afdce4fcf962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/kenney_pixel-platformer/Tiles/Characters/tile_0017.png using Guid(73adec08d276339489c9afdce4fcf962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e7aab0eef68ffbf4d334bcd4c955aa') in 0.024874 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013598 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\delos\Documents\GitHub\2D-Game-Practice\2D Microgame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\delos\Documents\GitHub\2D-Game-Practice\2D Microgame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.01 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.158 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2159ms)
+		BeginReloadAssembly (185ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1850ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (504ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (1036ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (184ms)
+				ProcessInitializeOnLoadAttributes (505ms)
+				ProcessInitializeOnLoadMethodAttributes (308ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 13.90 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6252 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (1.4 MB). Loaded Objects now: 6816.
+Memory consumption went from 235.6 MB to 234.3 MB.
+Total: 10.310100 ms (FindLiveObjects: 0.648200 ms CreateObjectMapping: 0.471700 ms MarkObjects: 8.250700 ms  DeleteObjects: 0.937900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015121 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\delos\Documents\GitHub\2D-Game-Practice\2D Microgame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\delos\Documents\GitHub\2D-Game-Practice\2D Microgame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.92 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.888 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1889ms)
+		BeginReloadAssembly (172ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1616ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (462ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (867ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (152ms)
+				ProcessInitializeOnLoadAttributes (408ms)
+				ProcessInitializeOnLoadMethodAttributes (271ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 14.70 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6252 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (1.4 MB). Loaded Objects now: 6831.
+Memory consumption went from 235.7 MB to 234.3 MB.
+Total: 10.690400 ms (FindLiveObjects: 0.522900 ms CreateObjectMapping: 0.437500 ms MarkObjects: 8.828900 ms  DeleteObjects: 0.896000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016679 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\delos\Documents\GitHub\2D-Game-Practice\2D Microgame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\delos\Documents\GitHub\2D-Game-Practice\2D Microgame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.184 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2185ms)
+		BeginReloadAssembly (178ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1859ms)
+			LoadAssemblies (143ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (534ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (971ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (182ms)
+				ProcessInitializeOnLoadAttributes (471ms)
+				ProcessInitializeOnLoadMethodAttributes (288ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 9.24 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6252 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (1.4 MB). Loaded Objects now: 6846.
+Memory consumption went from 235.7 MB to 234.3 MB.
+Total: 10.614600 ms (FindLiveObjects: 0.510200 ms CreateObjectMapping: 0.448600 ms MarkObjects: 7.683600 ms  DeleteObjects: 1.970600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014250 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\delos\Documents\GitHub\2D-Game-Practice\2D Microgame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\delos\Documents\GitHub\2D-Game-Practice\2D Microgame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 6.34 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.942 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3945ms)
+		BeginReloadAssembly (242ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (3412ms)
+			LoadAssemblies (258ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (924ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (314ms)
+			SetupLoadedEditorAssemblies (1621ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (7ms)
+				BeforeProcessingInitializeOnLoad (235ms)
+				ProcessInitializeOnLoadAttributes (780ms)
+				ProcessInitializeOnLoadMethodAttributes (535ms)
+				AfterProcessingInitializeOnLoad (35ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 19.18 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6252 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (1.4 MB). Loaded Objects now: 6861.
+Memory consumption went from 235.7 MB to 234.3 MB.
+Total: 13.095800 ms (FindLiveObjects: 0.889300 ms CreateObjectMapping: 0.793400 ms MarkObjects: 10.115500 ms  DeleteObjects: 1.296000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011860 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\delos\Documents\GitHub\2D-Game-Practice\2D Microgame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\delos\Documents\GitHub\2D-Game-Practice\2D Microgame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.77 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.880 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1880ms)
+		BeginReloadAssembly (188ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (1539ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (482ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (737ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (145ms)
+				ProcessInitializeOnLoadAttributes (325ms)
+				ProcessInitializeOnLoadMethodAttributes (237ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.95 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6252 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (1.4 MB). Loaded Objects now: 6876.
+Memory consumption went from 235.6 MB to 234.3 MB.
+Total: 11.260600 ms (FindLiveObjects: 0.476400 ms CreateObjectMapping: 0.350900 ms MarkObjects: 9.451400 ms  DeleteObjects: 0.980200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016699 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\delos\Documents\GitHub\2D-Game-Practice\2D Microgame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\delos\Documents\GitHub\2D-Game-Practice\2D Microgame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.008 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2009ms)
+		BeginReloadAssembly (184ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1622ms)
+			LoadAssemblies (155ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (483ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (800ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (144ms)
+				ProcessInitializeOnLoadAttributes (377ms)
+				ProcessInitializeOnLoadMethodAttributes (250ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.41 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6252 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (1.4 MB). Loaded Objects now: 6891.
+Memory consumption went from 235.6 MB to 234.3 MB.
+Total: 10.591300 ms (FindLiveObjects: 0.774700 ms CreateObjectMapping: 0.905000 ms MarkObjects: 8.300500 ms  DeleteObjects: 0.609300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 20.68 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 82 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (1.4 MB). Loaded Objects now: 6891.
+Memory consumption went from 109.9 MB to 108.6 MB.
+Total: 10.150500 ms (FindLiveObjects: 0.652300 ms CreateObjectMapping: 0.634700 ms MarkObjects: 8.214900 ms  DeleteObjects: 0.646700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
